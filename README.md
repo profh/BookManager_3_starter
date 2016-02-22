@@ -6,4 +6,4 @@ In contrast with the first version of BookManager, this project assumes that thi
 
 To set this up, clone this repository, run the `bundle install` command to ensure you have all the needed gems and then create the database with `rake db:migrate`.  If you want to populate the system with fictitious, but somewhat realistic data, you can run the `rake db:populate` command to get 50 authors and 54 books (from 13 categories) in various stages of the publishing process.  Once you start the app in your browser, you can log in with the username 'admin' and the password 'secret' (a very secure combo, of course; no one would ever guess that)
 
-Instructions for how to complete the lab and fill in the missing components can be found in the lab instructions found on the [67-272 course site](http://cmu-is-272.org/labs/7).
+Instructions for how to complete the lab and fill in the missing components can be found in the lab instructions found on the [67-272 course site](http://67272.cmuis.net/labs/7).
