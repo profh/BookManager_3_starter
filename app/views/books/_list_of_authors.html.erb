@@ -1,5 +1,5 @@
 <p>
-	<b><%= pluralize(@book.authors.size, 'Author') %></b><br />
+	<b><%= pluralize(@book.authors.count, 'Author') %></b><br />
 	<ul>
 		<% for author in @book.authors.alphabetical %>
 			<li><%= link_to((author.name), author_path(author)) %></li>
