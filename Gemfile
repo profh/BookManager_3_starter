@@ -34,7 +34,7 @@ end
 
 gem 'validates_timeliness'
 gem 'will_paginate'
-gem 'foundation-rails'
+gem 'foundation-rails', '5.5.3.2'
 gem 'simple_form'
 
 # Gems used only in testing
